@@ -1,0 +1,114 @@
+body   {
+    background-color: #ffffff;
+    scroll-behavior:smooth;
+    overflow-x: hidden;
+}
+
+div.intro {
+    font-size: 0.8em;
+    font-family:'Noto Sans TC', sans-serif;
+    text-align: justify;
+    color: darkslategrey;
+    margin: auto;
+  }
+a.alink{
+    color: seagreen;
+    text-decoration: none;
+    transition: color 1.2s;
+}
+a:hover.alink{
+    color: darkred;
+}
+
+li > i{
+    position: inherit;
+    text-align: center;
+}
+
+li > div{
+    position: inherit;
+    text-align: left;
+    font-family: cursive;
+    width: auto;
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f6fcff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding-left: 2px;
+}
+
+.sidenav li {
+  padding: 8px 5px 8px 0px;
+  color: #040e0a;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav li:nth-child(1):hover {
+  color: #2f46a1;
+}
+.sidenav li:nth-child(2):hover {
+    color: #296407;
+}
+.sidenav li:nth-child(3):hover {
+    color: #38a8a7;
+}
+.sidenav li:nth-child(4):hover {
+    color: #a8160b;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: black;
+}
+div #devnote{
+    background-color: deepskyblue;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+div#devnote > p {
+    font-family: Tahoma;
+    padding-bottom: 10px;
+}
+hr#line1{
+    border-width: 2px;
+    border-color: orangered;
+}
+span#navbutton{position: fixed;
+    top: 5px;
+    left: 4px;}
+
+
+@media screen and (max-width: 600px) {
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
