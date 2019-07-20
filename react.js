@@ -1,6 +1,6 @@
 function openNav() {
-  if (window.matchMedia("(max-width: 450px)").matches){document.getElementById("mySidenav").style.width = "35%";}
-  document.getElementById("mySidenav").style.width = "10%";
+  // if (window.matchMedia("(max-width: 450px)").matches){document.getElementById("mySidenav").style.width = "35%";}
+  document.getElementById("mySidenav").style.width = "135px";
   document.getElementById("main").style.marginLeft = "2%";
 }
 
