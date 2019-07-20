@@ -1,5 +1,5 @@
 function openNav() {
-  if (window.matchMedia("(max-width: 450px)").matches){document.getElementById("mySidenav").style.width = "30%";}
+  if (window.matchMedia("(max-width: 450px)").matches){document.getElementById("mySidenav").style.width = "35%";}
   document.getElementById("mySidenav").style.width = "10%";
   document.getElementById("main").style.marginLeft = "2%";
 }
