@@ -1,4 +1,4 @@
-
+body{overflow-x: hidden;}
 hr#downl{
     display: inline-block;
     border: solid;
@@ -96,7 +96,7 @@ hr#line1{
 
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
     div > i{
         font-size: 450%;
         margin: 20px 30px 20px 0px;
@@ -113,7 +113,7 @@ hr#line1{
     .gmap_canvas{
         position: static;
     }
-    
+    body{overflow: auto;}
 
     
     
