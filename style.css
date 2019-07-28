@@ -21,6 +21,7 @@ a:hover.alink{
 }
 
 li > i{
+    margin: 10px 0px 1px 0px;
     position: inherit;
     text-align: center;
 }
@@ -28,11 +29,10 @@ li > i{
 li > div{
     position: inherit;
     text-align: left;
-    font-family: cursive;
+    font-family: sans-serif;
     width: auto;
-    font-size: 1.2em;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    font-size: 1em;
+    margin: 5px 2px 10px 0px;
 }
 
 .sidenav {
@@ -41,31 +41,33 @@ li > div{
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  left: -20px;
   background-color: #f6fcff;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
   padding-top: 60px;
-  padding-left: 2px;
 }
 
 .sidenav li {
-  padding: 8px 5px 8px 0px;
+  padding: 8px 20px 18px -20px;
   color: #040e0a;
   display: block;
   transition: 0.3s;
 }
-.sidenav li:nth-child(1):hover {
+.list li:nth-child(1):hover {
   color: #2f46a1;
 }
-.sidenav li:nth-child(2):hover {
+.list li:nth-child(2):hover {
     color: #296407;
 }
-.sidenav li:nth-child(3):hover {
+.list li:nth-child(3):hover {
     color: #38a8a7;
 }
-.sidenav li:nth-child(4):hover {
+.list li:nth-child(4):hover {
     color: #a8160b;
+}
+.list li:nth-child(5):hover {
+    color: deepskyblue;
 }
 
 
