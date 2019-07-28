@@ -12,6 +12,22 @@
     text-align: center;
     color: #00a;     
 }
+div #devnote{
+    background-color: deepskyblue;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+div#devnote > p {
+    font-family: Tahoma;
+    padding-bottom: 10px;
+}
+hr#line1{
+    border-width: 2px;
+    border-color: orangered;
+}
+
+
 
 
 
