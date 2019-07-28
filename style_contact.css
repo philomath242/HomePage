@@ -1,0 +1,139 @@
+body{overflow-x: hidden;}
+hr#downl{
+    display: inline-block;
+    border: solid;
+    border-width: 2px;
+    width:100%;
+    
+}
+div#header{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+div > pre {
+    text-align: left;
+    margin-left: -2px;
+    color: darkslateblue;
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-bottom: -20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+div#init > p {
+    text-align: justify;
+    font-size:20px;
+}
+div#social{
+    width: 30%;
+    
+    
+}
+div > i {
+    box-sizing: border-box;
+    margin: 20px 30px;
+    overflow-x: hidden;
+    display: inline-grid;
+}
+div i:nth-child(1){
+    color: #3b5998;
+    font-size: 500%;
+}
+div i:nth-child(2){
+    background: url(ig_gradient.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 500%;
+}
+div i:nth-child(3){
+    color: #d44121;
+    font-size: 500%;
+}
+div i:nth-child(4){
+    color: #0d4482;
+    font-size: 500%;
+}
+div i:nth-child(5){
+    color: #08a0e9;
+    font-size: 500%;
+}
+div i:nth-child(6){
+    color: #333333;
+    font-size: 500%;
+}
+div.mapi{
+    display: inline-block; 
+    width: 100%;
+}
+div > b{
+    font-size:22px; }
+div.address{
+    position: relative;
+    top: 0px;
+    font-size: 20px;
+}
+.gmap_canvas{
+    background:none;
+    position: relative;
+    top: -150px;
+    right: -400px;
+    z-index: 1;
+}
+div #devnote{
+    background-color: deepskyblue;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+div#devnote > p {
+    font-family: Tahoma;
+    padding-bottom: 10px;
+}
+hr#line1{
+    border-width: 2px;
+    border-color: orangered;
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+    div > i{
+        font-size: 450%;
+        margin: 20px 30px 20px 0px;
+    }
+    div > pre{
+        font-size: 2em;
+    }
+    div#init > p {
+    font-size: 18px;
+    }     
+    iframe {
+        width: 100%;
+    }
+    .gmap_canvas{
+        position: static;
+    }
+    body{overflow: auto;}
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
